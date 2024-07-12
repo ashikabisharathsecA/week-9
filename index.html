@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My World (My Family) </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+        <div id="filters">
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="My love">My love</button>
+            <button class="filter-button" data-filter="Daughter Ayisha">Daughter Ayisha</button>
+            <button class="filter-button" data-filter="Daughter Khadeeja">Daughter Khadeeja</button>
+        </div>
+    </header>
+    <section id="gallery">
+        <div class="image" data-category="My Love">
+            <img src="My Love.jpg" alt="My Love Image ">
+        </div>
+        <div class="image" data-category="Daughter Ayisha">
+            <img src="Daughter Ayisha.jpg" alt="Daughter Ayisha Image ">
+        </div>
+        <div class="image" data-category="Daughter Khadeeja">
+            <img src="Daughter Khadeeja.jpg" alt="Daughter Khadeeja Image ">
+        </div>
+        
+    </section>
+
+    <div id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-image" src="" alt="Lightbox Image">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
